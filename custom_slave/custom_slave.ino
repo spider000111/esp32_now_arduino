@@ -34,6 +34,8 @@
 
 #define CHANNEL 1
 
+#define CONFIG_ESPNOW_ENABLE_LONG_RANGE 1
+
 // Init ESP Now with fallback
 void InitESPNow() {
   WiFi.disconnect();

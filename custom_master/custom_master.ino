@@ -39,6 +39,8 @@ esp_now_peer_info_t slave;
 #define PRINTSCANRESULTS 0
 #define DELETEBEFOREPAIR 0
 
+#define CONFIG_ESPNOW_ENABLE_LONG_RANGE 1
+
 // Init ESP Now with fallback
 void InitESPNow() {
   WiFi.disconnect();
